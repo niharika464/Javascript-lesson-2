@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="myfunction(9)">Execution of functions in JS</button>
+    <script>
+        function myfunction(a,b)
+        {
+            if(b====undefined)
+            {
+                b=5;
+            }
+            document.write(a*b);
+        }
+        </script>
+        
+        <button type="button" onclick="myfunction()">Do click on this button</button>
+        <p id="para1"></p>
+        <p id="para2"></p>
+        <script>
+            var b=10;
+            function myfunction()
+                {
+                    var a=25;
+                    document.getElementById("para1").innerHTML= a+a;
+                    document.getElementById("para2").innerHTML = a-a;
+                }
+                </script>
+              
+                <h2>EXPRESSION IN JS</h2>
+                <script>
+                var res=function(x,y)
+                {return x/y}
+                document.write(res(15,5))
+                </script>
+</body>
+</html>
+
